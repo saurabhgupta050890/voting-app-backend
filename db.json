@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "name": "Admin",
+      "email": "admin@gmail.com",
+      "password": "$2a$10$CX/WggFN1H6qEtqb.45c1OQClbcdHcArAKREnjNICHAfbm3ICdSU2",
+      "role": "ROLE_ADMIN"
+    },
+    {
+      "name": "User One",
+      "email": "user1@gmail.com",
+      "password": "$2a$10$MD62XSgvJOlSYPQhYRZ0mu/WNwnko1OtkjvvdW5m7e.w9jdQEqgte",
+      "role": "ROLE_USER"
+    }
+  ],
+  "userVotes": {
+    "user1@gmail.com": "3c49b6d0-3ba4-11e9-bdd3-816dfa215b61"
+  },
+  "candidates": [
+    {
+      "id": "3c49b6d0-3ba4-11e9-bdd3-816dfa215b61",
+      "name": "Candidate 2"
+    },
+    {
+      "id": "705dedb0-3ba4-11e9-bdd3-816dfa215b61",
+      "name": "Candidate 3"
+    },
+    {
+      "id": "4fa79230-3ba7-11e9-96ad-9fdfe757102e",
+      "name": "Candidate 4"
+    }
+  ],
+  "candidateVoteCount": {
+    "3c49b6d0-3ba4-11e9-bdd3-816dfa215b61": 1,
+    "705dedb0-3ba4-11e9-bdd3-816dfa215b61": 0,
+    "4fa79230-3ba7-11e9-96ad-9fdfe757102e": 0
+  }
+}

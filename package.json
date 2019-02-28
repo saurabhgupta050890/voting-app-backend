@@ -1,0 +1,23 @@
+{
+  "name": "voting-app-backend",
+  "version": "1.0.0",
+  "description": "A REST API for a simple voting application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch ./ --watch .env"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^4.0.0",
+    "fastify": "^0.37.0",
+    "fastify-auth": "^0.1.0",
+    "fastify-helmet": "^1.0.2",
+    "jsonwebtoken": "^8.1.0",
+    "lowdb": "^1.0.0",
+    "nodemon": "^1.14.9",
+    "uuid": "^3.3.2"
+  }
+}
