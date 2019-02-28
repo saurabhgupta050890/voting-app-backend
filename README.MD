@@ -3,7 +3,11 @@
 ```
 npm install
 ```
+## Run
 
+```
+npm run serve
+```
 ## Configuration
 
 * Copy and rename .env.default to .env
