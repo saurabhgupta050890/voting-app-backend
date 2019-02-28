@@ -12,12 +12,12 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "dotenv": "^4.0.0",
-    "fastify": "^0.37.0",
+    "fastify": ">=0.38.0",
     "fastify-auth": "^0.1.0",
     "fastify-helmet": "^1.0.2",
     "jsonwebtoken": "^8.1.0",
     "lowdb": "^1.0.0",
-    "nodemon": "^1.14.9",
+    "nodemon": "^1.18.10",
     "uuid": "^3.3.2"
   }
 }
